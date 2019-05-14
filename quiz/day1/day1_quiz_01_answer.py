@@ -6,6 +6,7 @@ import pandas as pd
 df = pd.read_csv("rating_chocobar.csv")
 df.head(2)
 df.iloc[0, :]
+df.iloc[0, ]
 type(df)
 
 #Q3. df의 첫 3개 row를 출력하시오
@@ -42,7 +43,18 @@ df.columns
 df.rename(columns = {df.columns[0]: "cc"}, inplace = True)
 df.columns
 
-#Q10. df의 첫 번째, 네 번째, 열 번째 row를 추출하여 df_sub1 객체에 저장하시오
+#Q10. Pacari 회사의 평점[Rating] 평균을 구하시오. 
+# 1)
+set(df.iloc[:,0])
+df_pacari = df.loc[df.iloc[:,0] == 'Pacari', :]
+set(df_pacari["aa"])
+df_pacari.head()
+
+# 2)
+df.loc[df.iloc[:,0] == 'Pacari', "Rating"].mean()
+
+
+#Q11. df의 첫 번째, 네 번째, 열 번째 row를 추출하여 df_sub1 객체에 저장하시오
 # 1)
 df_sub1 = df.iloc[[0, 3, 9],]
 
@@ -52,7 +64,7 @@ df_sub1 = df.iloc[[0, 3, 9], :]
 # 3)
 df_sub1 = df.take([0, 3, 9])
 
-#Q11. df의 index 번호가 짝수인 것만 추출하여 df_sub2 객체에 저장하시오
+#Q12. df의 index 번호가 짝수인 것만 추출하여 df_sub2 객체에 저장하시오
 # 1)
 len(df)
 df_sub2 = df.iloc[2:1795:2,]
@@ -70,7 +82,7 @@ df_sub2.head()
 df_sub2 = df.iloc[::2,]
 df_sub2.head()
 
-#Q12. df_sub1과 df_sub2를 차례대로 병합하여 df_sub 객체에 저장하시오
+#Q13. df_sub1과 df_sub2를 차례대로 병합하여 df_sub 객체에 저장하시오
 # 1)
 df_sub = pd.concat([df_sub1, df_sub2], axis = 0, sort=False)
 df_sub.head()
@@ -84,5 +96,6 @@ pd.concat([df.iloc[:3,], df.iloc[:3,]], axis = 1)
 dd = pd.concat([df.iloc[:3,], df.iloc[:3,]], axis = 1)
 dd.columns
 
-#Q13. df_sub를 "day1_quiz.csv"로 저장하시오.
+#Q14. df_sub를 "day1_quiz.csv"로 저장하시오.
 df_sub.to_csv("day1_quiz.csv", index = False)
+
