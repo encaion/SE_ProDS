@@ -18,12 +18,14 @@
 ### Q8. df의 column 이름을 확인하시오
 
 ### Q9. df의 첫 번째 변수 명을 "aa"로 변경하시오
- 
-### Q10. df의 첫 번째, 네 번째, 열 번째 row를 추출하여 df_sub1 객체에 저장하시오
 
-### Q11. df의 index 번호가 짝수인 것만 추출하여 df_sub2 객체에 저장하시오
+### Q10. Pacari 회사의 평점[Rating] 평균을 구하시오. 
 
-### Q12. df_sub1과 df_sub2를 차례대로 병합하여 df_sub 객체에 저장하시오
+### Q11. df의 첫 번째, 네 번째, 열 번째 row를 추출하여 df_sub1 객체에 저장하시오
 
-### Q13. df_sub를 "day1_quiz.csv"로 저장하시오.
+### Q12. df의 index 번호가 짝수인 것만 추출하여 df_sub2 객체에 저장하시오
+
+### Q13. df_sub1과 df_sub2를 차례대로 병합하여 df_sub 객체에 저장하시오
+
+### Q14. df_sub를 "day1_quiz.csv"로 저장하시오.
 
