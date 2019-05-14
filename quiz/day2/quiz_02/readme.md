@@ -22,6 +22,7 @@
 ### Q10. 총 몇 군데의 대륙[posa_continent]에서 데이터가 수집되어있는지 조사하시오.
 
 ### Q11. 가장 많은 국가가 있는 대륙[posa_continent] 번호는 몇 번인가?
+# 단, 국가의 기준은 [user_location_country] 로 한다.
 
 ### Q12. 유입 채널[channel]과 결제[is_booking]여부 데이터를 기반으로 표(crosstab)을 생성하시오.
 
