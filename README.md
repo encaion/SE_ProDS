@@ -32,3 +32,6 @@
 DB연결: http://pythonstudy.xyz/python/article/202-MySQL-%EC%BF%BC%EB%A6%AC <br>
 datetime: https://docs.python.org/3/library/datetime.html <br>
 time frequency ref.: https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html <br>
+
+---------
+문의: contact@rloha.io
