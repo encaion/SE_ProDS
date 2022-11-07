@@ -36,5 +36,3 @@
 ### [Blog]
 <b>Data Doctor</b>: https://datadoctorblog.com/ <br>
 
-### [Data]
-<b>Credit Card</b>: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
