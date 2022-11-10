@@ -35,4 +35,5 @@
 
 ### [Blog]
 <b>Data Doctor</b>: https://datadoctorblog.com/ <br>
+<b>실기시험 정리노트</b>: https://datadoctorblog.com/2020/09/18/Py-prepare-skill-test-00-library-list/ <br>
 
