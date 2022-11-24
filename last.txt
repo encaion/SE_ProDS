@@ -1,0 +1,6 @@
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
+# model.fit(X = df_train["experience"], # Series로 들어가서 안됨....
+#           y = df_train["target"])
+model.fit(X = df_train[["experience"]],
+          y = df_train["target"])
