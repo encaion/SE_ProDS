@@ -23,6 +23,11 @@
 
 ---------
 # 각종 링크 모음
+### [Blog]
+<b>파이썬 설치</b>: https://datadoctorblog.com/2022/10/26/Py-Jupyter-Notebook-Install/ <br>
+<b>Data Doctor</b>: https://datadoctorblog.com/ <br>
+<b>실기시험 정리노트</b>: https://datadoctorblog.com/2020/09/18/Py-prepare-skill-test-00-library-list/ <br>
+
 ### [Python 3]
 <b>Official</b>: https://docs.python.org/3/ <br>
 <br>
@@ -33,7 +38,4 @@
 <b>StatsModels</b>: https://www.statsmodels.org/stable/index.html <br>
 <br>
 
-### [Blog]
-<b>Data Doctor</b>: https://datadoctorblog.com/ <br>
-<b>실기시험 정리노트</b>: https://datadoctorblog.com/2020/09/18/Py-prepare-skill-test-00-library-list/ <br>
 
